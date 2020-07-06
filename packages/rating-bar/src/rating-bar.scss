@@ -1,0 +1,40 @@
+@import './rating-bar-map.scss';
+
+:host .bar-container {
+    background-color: var(--container-bar-background);
+    margin-bottom: var(--container-bar-margin-bottom);
+    border-radius: var(--container-bar-border-radius);
+    
+    .bar-indicator {
+        border-radius: var(--container-bar-border-radius);
+        height: var(--bar-progress-height);
+        max-width: 100%;
+    }
+
+.bad {
+    background-color: var(--bar-progress-color-bad);
+}
+.poor {
+    background-color: var(--bar-progress-color-poor);
+}
+.average {
+    background-color: var(--bar-progress-color-average);
+}
+.great {
+    background-color: var(--bar-progress-color-great);
+}
+.excellent {
+    background-color: var(--bar-progress-color-excellent);
+}
+}
+
+.bar-info {
+font-family: var(--label-font-family);
+color: var(--label-color);
+font-weight: var(--label-font-weight);
+font-size: var(--label-font-size);
+
+.display-rating{
+     float:right;
+}
+}
